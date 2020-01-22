@@ -1,0 +1,94 @@
+body{
+	font-family: Arial,sans-serif;
+        font-size: 17px;
+        background:-webkit-gradient(linear, 80% 20%, 10% 18%, from(#56BBBA), to(#9FBF7F));
+}
+header, footer{
+	text-align: center;
+	border:solid 1px #fff;
+	border-radius: 14px;
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: #F7FFFF;
+	box-shadow: 0px 0px 7px #000000;
+	margin-top: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+footer p{
+	font-size: 14px;
+}
+.settings{
+	box-shadow: 0px 0px 10px #000000;
+	border-radius: 14px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	width: 43%;
+}
+#first_settings{
+	float: left; 
+	margin-left: 20px;
+}
+#second_settings{
+	float: right; 
+	margin-right: 20px;
+	padding-bottom: 25px;
+}
+h2, h4{
+	text-align: center;
+}
+#graph{
+	margin-top: 20px;
+	clear: both;
+}
+#graphic{
+	margin: 0 auto;
+	width: 1400px;
+	height: 700px;
+	border: solid 2px #000;
+	margin-bottom: 15px;
+	background-color: #fff;
+	box-shadow: 0px 0px 5px #000000;
+}
+#canvas1{
+        /*margin: 10px;*/
+}
+form{
+	margin: 0 auto;
+	display: table;
+	width: 90%;
+}
+
+.row{
+	display: table-row;
+}
+label, input, select{
+	display: table-cell;
+}
+input[type="submit"]{
+        width: 50%;
+	padding: 5px;
+	cursor: pointer;
+	box-shadow: 0px 0px 1px #000000;
+	font-weight: bold;
+}
+input, select{
+	margin-left: 10px;
+	width: 30%;
+}
+input[type="color"], input[type="number"]{
+width: 10%;
+}
+input[type="checkbox"]{
+	width: 17px;
+	height: 17px;
+
+}
+input[type="color"]{
+	padding: 1px;
+}
+#second_settings{
+	display: block;
+}

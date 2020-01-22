@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <title>Графіки математичних функцій</title>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="style.css">
+	  <script type="text/javascript" src="script.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1>Графіки математичних функцій</h1>
+		</header>
+		<div id="first_settings" class="settings">
+			<h4>Загальні налаштування</h4>
+                        <form id="form1"  action="NewServlet" method="POST">
+				<div class="row">
+					<label>Введіть межі:</label>
+					<input type="text" name="first">
+					<input type="text" name="second">
+				</div>
+				<br>
+				<div class="row">
+					<label>Введіть кількість точок:</label>
+					<input type="text" name="number_of_points">
+				</div>
+				<br>
+				<div class="row">
+					<label>Виберіть функцію:</label>
+					<select name="function">
+						<option value = "0" selected>y = x^2 - 4</option>
+						<option value = "1">y = x^3 - 27</option>
+						<option value = "2">y = sin(x)</option>
+						<option>y = cos(x)</option>
+						<option>y = tg(x)</option>
+					</select>
+				</div>
+				<br>
+					<input type="submit" value="Побудувати"/>
+			</form>
+		</div>
+
+		
+		
+		<div id="graph">
+			<h2>Графік функції</h2>
+			<div id="graphic"></div>
+		</div>
+
+		<footer>
+			<p>2017 &copy; Julia Korniychuk</p>
+		</footer>
+	</body>
+</html>
